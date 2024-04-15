@@ -90,3 +90,10 @@ body {
     color: #6B4E71;
     background-color: #F5DDDD;
 }
+
+/* Contact section styling */
+
+.contact-container {
+    background-color: #C98986;
+    color: #3A4454;
+}
