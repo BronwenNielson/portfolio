@@ -1,0 +1,47 @@
+{
+    "data" :[
+        {
+            "name": "Hogwarts Website",
+            "img": "images/hogwarts.png",
+            "blurb": "Website for the fictional school of Hogwarts created with HTML & CSS.",
+            "description": "This website was created as my final project for the Clickstart Digital Skills short course. The objective for the project was to build a website with at least 3 seperate pages, for organisation, buisness or event, using HTML and CSS and hosted via Github Pages. This site is fully functional and responsive, with interactive visual elements throughout the site. I also chose to create a contact form using PHP, this however is not currently functional as it does not have an end point. This site can be accessed at https://bronwennielson.github.io/hogwarts/index.html",
+            "github": "https://github.com/BronwenNielson/hogwarts"
+        },
+        {
+            "name": "Age Calculator",
+            "img": "images/age-calculator.png",
+            "blurb": "An age calculator created with HTML, CSS & JS",
+            "description": "This was an lesson exercise created as part of the iO Academy Software Development Essentials bootcamp. This is an age calculator which takes the date entered by the user and returns the duration from that date in days, months and years. This was an interesting exercise as it taught me a lot about Javascript's built in Date function, including that it is not the most accurate tool, as the date it returns is always a few days off from correct",
+            "github": "https://github.com/BronwenNielson/age-calculator"
+        },
+        {
+            "name": "Doggy Encyclopedia",
+            "img": "images/placeholder.jpg",
+            "blurb": "A simple encyclopedia style site created with HTML, CSS & JS",
+            "description": "This was an lesson exercise created as part of the iO Academy Software Development Essentials bootcamp. This is a site which displays various data about different dog breeds, pulled from a JSON file. The site will also toggle depending on metric or imperial measurements. This exercise was done to help developing understanding of the fetch function.",
+            "github": "https://github.com/BronwenNielson/doggy-encyclopedia"
+        },
+        {
+            "name": "Project Name",
+            "img": "images/placeholder.jpg",
+            "blurb": "This is a placeholder card, until more projects are added",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas pharetra convallis posuere morbi leo. Varius quam quisque id diam vel. Libero nunc consequat interdum varius. Adipiscing tristique risus nec feugiat in.",
+            "github": ""
+        },
+        {
+            "name": "Project Name",
+            "img": "images/placeholder.jpg",
+            "blurb": "This is a placeholder card, until more projects are added",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas pharetra convallis posuere morbi leo. Varius quam quisque id diam vel. Libero nunc consequat interdum varius. Adipiscing tristique risus nec feugiat in.",
+            "github": ""
+        },
+        {
+            "name": "Project Name",
+            "img": "images/placeholder.jpg",
+            "blurb": "This is a placeholder card, until more projects are added",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas pharetra convallis posuere morbi leo. Varius quam quisque id diam vel. Libero nunc consequat interdum varius. Adipiscing tristique risus nec feugiat in.",
+            "github": ""
+        }        
+
+    ]
+}
