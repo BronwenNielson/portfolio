@@ -1,8 +1,21 @@
 * {
-    background-color: #F5DDDD;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+body {
+    background-color: #F5DDDD;
+}
+
+/* Splash section styling */
+
+.hi {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
@@ -19,4 +32,11 @@
 
 .splash-img {
     border: 3px dashed #6B4E71;
+}
+
+/* About section styling */
+
+.about-container {
+    background-color: #C98986;
+    color: #3A4454;
 }
