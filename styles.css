@@ -1,0 +1,21 @@
+* {
+    background-color: #F5DDDD;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.splash-container {
+    border: 3px dashed #6B4E71;
+    height: 685px;
+}
+
+.splash-container header {
+    color: #3A4454;
+}
+
+.splash-container header a:hover {
+    color: #C98986;
+}
