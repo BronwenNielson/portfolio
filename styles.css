@@ -40,3 +40,53 @@ body {
     background-color: #C98986;
     color: #3A4454;
 }
+
+.about-container h2 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.projects-container {
+    border: 3px dashed #6B4E71;
+    min-height: 685px;
+    color: #3A4454;
+}
+
+/* Project section styling */
+
+.projects-container h2 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.card {
+    background-color: #C98986;
+}
+
+.card h2 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.card button,
+.card a {
+    background-color: #6B4E71;
+    color: #F5DDDD;
+    transition: background-color, 0.5s;
+    transition: color, 0.5s;
+}
+
+.card button:hover,
+.card a:hover {
+    color: #6B4E71;
+    background-color: #F5DDDD;
+}
