@@ -10,12 +10,13 @@
 .splash-container {
     border: 3px dashed #6B4E71;
     height: 685px;
-}
-
-.splash-container header {
     color: #3A4454;
 }
 
 .splash-container header a:hover {
     color: #C98986;
+}
+
+.splash-img {
+    border: 3px dashed #6B4E71;
 }
