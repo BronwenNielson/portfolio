@@ -97,3 +97,21 @@ body {
     background-color: #C98986;
     color: #3A4454;
 }
+
+/* Modal styling */
+
+.modal {
+    position: fixed;
+    width: 800px;
+    height: 600px;
+    top: 50px;
+    right: calc(50% - 400px);
+    padding: 25px;
+    box-shadow: 3px 3px 5px 0px #343a40;
+    background-color: #F5DDDD;
+    display: none;
+  }
+
+  .modal.open {
+    display: block;
+  }

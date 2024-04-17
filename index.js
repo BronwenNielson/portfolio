@@ -11,9 +11,18 @@ fetch('projects.json').then ((response) => {
             <img src="${project.img}" alt="${project.imgAlt}" class="w-11/12 h-2/4">
             <p class="text-xl mt-5 mb-14">${project.blurb}</p>
             <div class="w-10/12 flex justify-between text-xl">
-                <button class="p-2 rounded-xl">More Info</button>
+                <button data-id="${project.id}" class="p-2 rounded-xl modal-toggle">More Info</button>
                 <a class="p-2 rounded-xl" href="${project.github}" target="_blank">Github<i class="fa-brands fa-github"></i></a>
             </div>
         </div> `
+    }
+
+    document.querySelectorAll('.modal-toggle').forEach(button => {
+        button.addEventListener('click', toggleModal)
+    })
+    
+    function toggleModal(e) {
+        e.preventDefault();
+        document.querySelector('.modal').classList.toggle('open')
     }
 });

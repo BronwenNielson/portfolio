@@ -2,6 +2,7 @@
     "data" :[
         {
             "name": "Hogwarts Website",
+            "id": 0,
             "img": "images/hogwarts.png",
             "imgAlt": "the front page of an Hogwarts website",
             "blurb": "Website for the fictional school of Hogwarts created with HTML & CSS.",
@@ -10,6 +11,7 @@
         },
         {
             "name": "Age Calculator",
+            "id": 1,
             "img": "images/age-calculator.png",
             "imgAlt": "the front page of an age calculator website",
             "blurb": "An age calculator created with HTML, CSS & JS",
@@ -18,6 +20,7 @@
         },
         {
             "name": "Doggy Encyclopedia",
+            "id": 2,
             "img": "images/placeholder.jpg",
             "imgAlt": "the front page of an Dog Encyclopedia website",
             "blurb": "A simple encyclopedia style site created with HTML, CSS & JS",
@@ -26,6 +29,7 @@
         },
         {
             "name": "Project Name",
+            "id": 3,
             "img": "images/placeholder.jpg",
             "imgAlt": "this is a black piece of paper",
             "blurb": "This is a placeholder card, until more projects are added",
@@ -34,6 +38,7 @@
         },
         {
             "name": "Project Name",
+            "id": 4,
             "img": "images/placeholder.jpg",
             "imgAlt": "this is a black piece of paper",
             "blurb": "This is a placeholder card, until more projects are added",
@@ -42,6 +47,7 @@
         },
         {
             "name": "Project Name",
+            "id": 5,
             "img": "images/placeholder.jpg",
             "imgAlt": "this is a black piece of paper",
             "blurb": "This is a placeholder card, until more projects are added",
