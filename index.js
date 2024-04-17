@@ -15,6 +15,19 @@ fetch('projects.json').then ((response) => {
                 <a class="p-2 rounded-xl" href="${project.github}" target="_blank">Github<i class="fa-brands fa-github"></i></a>
             </div>
         </div> `
+
+        document.querySelector('.modal').innerHTML = `
+        <header class="w-full flex">
+            <h2 class="text-4xl m-3 mb-9">Project Name</h2>
+            <i class="fa-solid fa-xmark mt-3 ml-96 pl-20 text-2xl modal-toggle"></i>
+        </header>
+        <div class="w-full flex h-4/5">
+            <img src="images/placeholder.jpg" alt="project alt" class="w-2/4 max-h-52">
+            <div class="p-5">
+                <p>project description</p>
+            </div>
+        </div>
+        <a href="githublink">Github<i class="fa-brands fa-github"></i></a>`
     }
 
     document.querySelectorAll('.modal-toggle').forEach(button => {
