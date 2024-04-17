@@ -11,7 +11,7 @@ fetch('projects.json').then ((response) => {
             <img src="${project.img}" alt="${project.imgAlt}" class="w-11/12 h-2/4">
             <p class="text-xl mt-5 mb-14">${project.blurb}</p>
             <div class="w-10/12 flex justify-center text-xl">
-                <button data-id="${project.id}" class=" m-2 p-2 rounded-xl modal-toggle">More Info</button>
+                <button data-id="${project.id}" data-name="${project.name}" data-pic="${project.img}" data-alt="${project.imgAlt}" data-description="${project.description}" data-url="${project.github}" class="m-2 p-2 rounded-xl modal-toggle">More Info</button>
                 <a class=" m-2 p-2 rounded-xl" href="${project.github}" target="_blank">Github<i class="fa-brands fa-github"></i></a>
             </div>
         </div> `
