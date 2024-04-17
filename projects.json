@@ -21,7 +21,7 @@
         {
             "name": "Doggy Encyclopedia",
             "id": 2,
-            "img": "images/placeholder.jpg",
+            "img": "images/placeholder2.png",
             "imgAlt": "the front page of an Dog Encyclopedia website",
             "blurb": "A simple encyclopedia style site created with HTML, CSS & JS",
             "description": "This was an lesson exercise created as part of the iO Academy Software Development Essentials bootcamp. This is a site which displays various data about different dog breeds, pulled from a JSON file. The site will also toggle depending on metric or imperial measurements. This exercise was done to help developing understanding of the fetch function.",
@@ -30,8 +30,8 @@
         {
             "name": "Project Name",
             "id": 3,
-            "img": "images/placeholder.jpg",
-            "imgAlt": "this is a black piece of paper",
+            "img": "images/placeholder2.png",
+            "imgAlt": "code",
             "blurb": "This is a placeholder card, until more projects are added",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas pharetra convallis posuere morbi leo. Varius quam quisque id diam vel. Libero nunc consequat interdum varius. Adipiscing tristique risus nec feugiat in.",
             "github": ""
@@ -39,8 +39,8 @@
         {
             "name": "Project Name",
             "id": 4,
-            "img": "images/placeholder.jpg",
-            "imgAlt": "this is a black piece of paper",
+            "img": "images/placeholder2.png",
+            "imgAlt": "code",
             "blurb": "This is a placeholder card, until more projects are added",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas pharetra convallis posuere morbi leo. Varius quam quisque id diam vel. Libero nunc consequat interdum varius. Adipiscing tristique risus nec feugiat in.",
             "github": ""
@@ -48,8 +48,8 @@
         {
             "name": "Project Name",
             "id": 5,
-            "img": "images/placeholder.jpg",
-            "imgAlt": "this is a black piece of paper",
+            "img": "images/placeholder2.png",
+            "imgAlt": "code",
             "blurb": "This is a placeholder card, until more projects are added",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas pharetra convallis posuere morbi leo. Varius quam quisque id diam vel. Libero nunc consequat interdum varius. Adipiscing tristique risus nec feugiat in.",
             "github": ""

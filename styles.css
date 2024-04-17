@@ -21,23 +21,26 @@ body {
 }
 
 .splash-container {
-    border: 3px dashed #6B4E71;
     height: 685px;
     color: #3A4454;
 }
 
-.splash-container header a:hover {
-    color: #C98986;
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #F5DDDD;
+    width: 100%;
 }
 
-.splash-img {
-    border: 3px dashed #6B4E71;
+.splash-container header a:hover {
+    color: #6B4E71;
 }
 
 /* About section styling */
 
 .about-container {
-    background-color: #C98986;
+    background-color: #EDC0C0;
     color: #3A4454;
 }
 
@@ -50,7 +53,6 @@ body {
 }
 
 .projects-container {
-    border: 3px dashed #6B4E71;
     min-height: 685px;
     color: #3A4454;
 }
@@ -66,7 +68,8 @@ body {
 }
 
 .card {
-    background-color: #C98986;
+    background-color: #EDC0C0;
+    box-shadow: 4px 4px 10px #C0ABC4;
 }
 
 .card h2 {
@@ -94,7 +97,7 @@ body {
 /* Contact section styling */
 
 .contact-container {
-    background-color: #C98986;
+    background-color: #EDC0C0;
     color: #3A4454;
 }
 
@@ -102,13 +105,13 @@ body {
 
 .modal {
     position: fixed;
-    width: 800px;
-    height: 600px;
-    top: 50px;
-    right: calc(50% - 400px);
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
     padding: 25px;
-    box-shadow: 3px 3px 5px 0px #343a40;
-    background-color: #F5DDDD;
+    background-color: #C98986;
+    color: #3A4454;
     display: none;
   }
 

@@ -17,12 +17,14 @@
 
 </head>
 <body>
-    <div class="splash-container w-100 m-3">
-        <header class="flex w-100 m-2 p-2">
-            <a href="#about" class="mx-3 text-2xl">About</a>
-            <a href="#projects" class="mx-3 text-2xl">Projects</a>
-            <a href="#contact" class="mx-3 text-2xl">Contact</a>
-        </header>
+    <div class="splash-container m-3">
+        <div class="nav">
+            <header class="flex m-2 p-2">
+                <a href="#about" class="mx-3 text-2xl">About</a>
+                <a href="#projects" class="mx-3 text-2xl">Projects</a>
+                <a href="#contact" class="mx-3 text-2xl">Contact</a>
+            </header>
+        </div>
         <div class="flex flex-stretch justify-center items-center h-5/6">
             <div class="w-2/4">
                 <h2 class="hi text-8xl m-1">Hi!</h2>
@@ -35,22 +37,22 @@
         </div>
         <div class="flex justify-center"><a href="#about"><i class="fa-solid fa-chevron-down text-5xl"></i></a></div>
     </div>
-    <div class="about-container h-96 p-3 flex items-center">
+    <div id="about" class="about-container h-96 p-3 flex items-center">
         <div class="w-2/4 flex justify-center">
             <img class="h-60 w-60" src="images/placeholder.jpg" alt="">
         </div>
         <div>
-            <h2 class="text-4xl my-5" id="about">About</h2>
+            <h2 class="text-4xl my-5">About</h2>
             <p class="text-2xl">This is where i will out an about me blurb. gonna waffle about me, what i've been learning ect ect ect</p>
         </div>
     </div>
-    <div class="projects-container w-100 m-3 p-5">
-        <h2 id="projects" class="text-4xl m-2">My projects</h2>
+    <div id="projects" class="projects-container w-full m-3 p-5">
+        <h2 class="text-4xl m-2">My projects</h2>
         <p class="m-2">This is a selection of projects I've worked on so far.</p>
         
-        <div class="card-container flex flex-wrap justify-center"> </div>
+        <div class="card-container flex flex-wrap justify-center w-full"> </div>
     </div>
-    <div class="contact-container">
+    <div id="contact" class="contact-container">
         <h2>Contact</h2>
         <p>The best way to contact me is via Email, but if social media is preferred I have provided these as well</p>
         <div class="flex">
