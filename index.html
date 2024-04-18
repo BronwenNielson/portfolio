@@ -18,8 +18,8 @@
 </head>
 <body>
 <!-- Navbar -->
-    <div class="splash-container m-3">
-        <div class="nav">
+    <div class="splash-container m-3 h-screen">
+        <div class="nav w-full">
             <header class="flex m-2 p-2">
                 <button class="btn-toggle mx-3 text-2xl md:hidden">Menu</button>
                 <div class="hidden md:flex">
@@ -37,34 +37,40 @@
         </div>
 
 <!-- Splash -->
-        <div class="flex flex-stretch justify-center items-center h-5/6">
-            <div class="w-2/4">
+        <div class="flex flex-col md:flex-row-reverse justify-center items-center h-5/6">
+            <div>
+                <img class="h-60 w-60 mb-12 mt-24 md:mb-0 md:mt-0 md:h-72 md:w-72 rounded-full p-1" src="images/placeholder.jpg" alt="">
+            </div>
+            <div class="w-3/4 md:w-2/4">
                 <h2 class="hi text-8xl m-1">Hi!</h2>
                 <h1 class="text-5xl mx-2 my-3">I'm Bronwen</h1>
                 <p class="text-xl m-3">I am a trainee software developer based in Bristol, UK.</p>
             </div>
-            <div>
-                <img class="splash-img h-72 w-72 rounded-full p-1" src="images/placeholder.jpg" alt="">
-            </div>
         </div>
-        <div class="flex justify-center"><a href="#about"><i class="fa-solid fa-chevron-down text-5xl"></i></a></div>
+        <div class="flex justify-center mt-10"><a href="#about"><i class="fa-solid fa-chevron-down text-5xl"></i></a></div>
     </div>
-    <div id="about" class="about-container h-96 p-3 flex items-center">
-        <div class="w-2/4 flex justify-center">
-            <img class="rounded-xl w-60" src="images/profile.jpeg" alt="">
+
+<!-- About -->
+    <div id="about" class="about-container md:h-96 p-3 flex items-center">
+        <div class="w-0 md:w-2/4 flex justify-center items-center">
+            <img class="hidden md:block rounded-xl w-60" src="images/profile.jpeg" alt="">
         </div>
-        <div class="w-2/4 p-3">
+        <div class="md:w-2/4 p-3 text-center">
             <h2 class="text-4xl my-5">About</h2>
             <p class="text-xl my-3">Hi, I'm Bron. I'm still relatively new to my coding journey, having started learning in late 2022. Alongside self learning, I have also completed the ClickStart Digital Skills course, and am currently engaging in iO Academy's Software Development Essentials bootcamp.</p>
             <p class="text-xl my-4">When i'm not buried in the code you can usually find me curled up on the sofa, working on my latest crafting project, absorbed in good story, or catching up on work for the non-profit site Givin Gifts. </p>
         </div>
     </div>
-    <div id="projects" class="projects-container w-full m-3 p-5">
-        <h2 class="text-4xl mx-12 my-5 pt-5">My projects</h2>
-        <p class="mt-2 mb-12 m-12">This is a selection of projects I've worked on so far.</p>
+
+<!-- Projects -->
+    <div id="projects" class="projects-container m-3 p-5">
+        <h2 class="text-4xl md:mx-12 my-5 pt-5">My projects</h2>
+        <p class="mt-2 mb-12 md:m-12">This is a selection of projects I've worked on so far.</p>
         
         <div class="card-container flex flex-wrap justify-center w-full"> </div>
     </div>
+
+<!-- Contact -->
     <div id="contact" class="contact-container">
         <h2 class="text-4xl mx-12 my-5 pt-5">Contact</h2>
         <p class="text-xl mx-12">The best way to contact me is via Email, but if social media is preferred I have provided these as well</p>
@@ -74,6 +80,8 @@
             <a href="https://github.com/BronwenNielson"><i class="fa-brands fa-github m-5"></i></a>
         </div>
     </div>
+
+
     <footer>
         <p class="mx-12 my-2">&copy; Copyright 2024</p>
     </footer>

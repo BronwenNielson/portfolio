@@ -15,7 +15,7 @@ fetch('projects.json').then ((response) => {
 
     for(const project of data.data) {
         document.querySelector('.card-container').innerHTML += `
-        <div class="card w-2/5 m-6 p-3 rounded-xl flex flex-col items-center text-center">
+        <div class="card w-4/5 md:w-2/5 m-6 p-3 rounded-xl flex flex-col items-center text-center">
             <h2 class="text-2xl my-5">${project.name}</h2>
             <img src="${project.img}" alt="${project.imgAlt}" class="w-11/12 h-2/4">
             <p class="text-xl mt-5 mb-14">${project.blurb}</p>
@@ -29,12 +29,12 @@ fetch('projects.json').then ((response) => {
         <header class="w-full flex justify-end">
             <i class="fa-solid fa-xmark text-2xl modal-toggle"></i>
         </header>
-        <div class="flex items-center justify-center h-5/6 w-5/6">
-            <div class="w-2/4 m-5">
+        <div class="flex flex-col md:flex-row items-center justify-center h-5/6 w-5/6">
+            <div class="hidden md:flex md:w-2/4 md:m-5">
                 <img src="" alt="" class="w-full" id="pic">
             </div>
-            <div class="px-5 py-10 w-2/4 m-5">
-                <h2 class="text-4xl text-center my-5" id="name"></h2>
+            <div class="px-5 py-10 w-full md:w-2/4 md:m-5">
+                <h2 class=" text-2xl md:text-4xl text-center my-5" id="name"></h2>
                 <p id="description"></p>
             </div>
         </div>
