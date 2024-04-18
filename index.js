@@ -6,7 +6,7 @@ fetch('projects.json').then ((response) => {
 
     for(const project of data.data) {
         document.querySelector('.card-container').innerHTML += `
-        <div class="card w-2/5 m-4 p-3 rounded-xl flex flex-col items-center text-center">
+        <div class="card w-2/5 m-6 p-3 rounded-xl flex flex-col items-center text-center">
             <h2 class="text-2xl my-5">${project.name}</h2>
             <img src="${project.img}" alt="${project.imgAlt}" class="w-11/12 h-2/4">
             <p class="text-xl mt-5 mb-14">${project.blurb}</p>
@@ -17,15 +17,19 @@ fetch('projects.json').then ((response) => {
         </div> `
 
         document.querySelector('.modal').innerHTML = `
-        <header class="w-full flex">
-            <h2 class="text-4xl m-3 mb-9" id="name"></h2>
-            <i class="fa-solid fa-xmark mt-3 ml-96 pl-20 text-2xl modal-toggle"></i>
+        <header class="w-full flex justify-end">
+            <i class="fa-solid fa-xmark text-2xl modal-toggle"></i>
         </header>
-            <img src="" alt="" class=" max-h-64" id="pic">
-            <div class="px-5 py-10">
+        <div class="flex items-center justify-center h-5/6 w-5/6">
+            <div class="w-2/4 m-5">
+                <img src="" alt="" class="w-full" id="pic">
+            </div>
+            <div class="px-5 py-10 w-2/4 m-5">
+                <h2 class="text-4xl text-center my-5" id="name"></h2>
                 <p id="description"></p>
             </div>
-        <a class="p-2 rounded-xl" href="" target="_blank" id="url">Github<i class="fa-brands fa-github"></i></a>`
+        </div>
+        <a class="p-2 rounded-xl text-3xl" href="" target="_blank" id="url">Github<i class="fa-brands fa-github"></i></a>`
     }
 
     document.querySelectorAll('.modal-toggle').forEach(button => {

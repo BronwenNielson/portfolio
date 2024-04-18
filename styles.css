@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #F5DDDD;
+    background-color: #EAE1DF;
 }
 
 /* Splash section styling */
@@ -29,19 +29,20 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #F5DDDD;
+    background-color: #94A38F;
+    color: white;
     width: 100%;
 }
 
 .splash-container header a:hover {
-    color: #6B4E71;
+    color: #3A4454;
 }
 
 /* About section styling */
 
 .about-container {
-    background-color: #EDC0C0;
-    color: #3A4454;
+    background-color: #94A38F;
+    color: white;
 }
 
 .about-container h2 {
@@ -68,7 +69,8 @@ body {
 }
 
 .card {
-    background-color: #EDC0C0;
+    background-color: #94A38F;
+    color: white;
     box-shadow: 4px 4px 10px #C0ABC4;
 }
 
@@ -82,8 +84,8 @@ body {
 
 .card button,
 .card a {
-    background-color: #6B4E71;
-    color: #F5DDDD;
+    background-color: #917C78;
+    color: white;
     transition: background-color, 0.5s;
     transition: color, 0.5s;
 }
@@ -97,24 +99,43 @@ body {
 /* Contact section styling */
 
 .contact-container {
-    background-color: #EDC0C0;
-    color: #3A4454;
+    background-color: #94A38F;
+    color: white;
+}
+
+.contact-container h2 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 /* Modal styling */
 
 .modal {
     position: fixed;
-    width: 50%;
-    height: 100%;
-    top: 0;
-    right: 0;
+    width: 95%;
+    height: 95%;
+    top: 2.5%;
+    right: 2.5%;
     padding: 25px;
-    background-color: #C98986;
-    color: #3A4454;
+    border-radius: 25px;
+    background-color: #69776C;
+    color: white;
     display: none;
   }
 
   .modal.open {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modal h2 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100; 
   }
