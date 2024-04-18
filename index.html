@@ -17,14 +17,26 @@
 
 </head>
 <body>
+<!-- Navbar -->
     <div class="splash-container m-3">
         <div class="nav">
             <header class="flex m-2 p-2">
-                <a href="#about" class="mx-3 text-2xl">About</a>
-                <a href="#projects" class="mx-3 text-2xl">Projects</a>
-                <a href="#contact" class="mx-3 text-2xl">Contact</a>
+                <button class="btn-toggle mx-3 text-2xl md:hidden">Menu</button>
+                <div class="hidden md:flex">
+                    <a href="#about" class="mx-3 text-2xl">About</a>
+                    <a href="#projects" class="mx-3 text-2xl">Projects</a>
+                    <a href="#contact" class="mx-3 text-2xl">Contact</a>
+                </div>
             </header>
         </div>
+        <div class="menu flex-col p-5">
+            <i class="fa-solid fa-xmark text-3xl pb-8 pl-80 btn-toggle"></i>
+            <a href="#about" class="mx-3 my-3 text-2xl">About</a>
+            <a href="#projects" class="mx-3 my-3 text-2xl">Projects</a>
+            <a href="#contact" class="mx-3 my-3 text-2xl">Contact</a>
+        </div>
+
+<!-- Splash -->
         <div class="flex flex-stretch justify-center items-center h-5/6">
             <div class="w-2/4">
                 <h2 class="hi text-8xl m-1">Hi!</h2>

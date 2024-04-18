@@ -38,6 +38,20 @@ body {
     color: #3A4454;
 }
 
+.menu {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: #69776C;
+    color: white;
+    display: none;
+}
+
+.menuOpen {
+    display: flex!important;
+}
+
 /* About section styling */
 
 .about-container {

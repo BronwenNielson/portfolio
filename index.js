@@ -1,3 +1,12 @@
+document.querySelectorAll('.btn-toggle').forEach(button => {
+    button.addEventListener('click', toggleBtn)
+});
+
+function toggleBtn(e) {
+    e.preventDefault();
+    document.querySelector('.menu').classList.toggle('menuOpen');
+};
+
 
 fetch('projects.json').then ((response) => {
     return response.json()
